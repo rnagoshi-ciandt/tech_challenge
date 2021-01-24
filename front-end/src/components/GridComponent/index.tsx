@@ -1,4 +1,3 @@
-import { report } from 'process';
 import React from 'react';
 import { ColumnGridType } from '../../types/ColumnGridType';
 import { ReportTypes } from '../../types/ReportTypes';

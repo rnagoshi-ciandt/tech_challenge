@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useQuery, gql } from '@apollo/client';
 import useApi from '../../hooks/useApi';
 import { SongReportType } from './utils/SongReportTypes';
 
@@ -8,7 +9,7 @@ import { SongReportColumns } from './utils/SongReportConstants';
 
 const url = '/getSongs';
 const SongReport: React.FC = () => {
-  const { data: reportData, isLoading } = useApi<SongReportType[]>(url, {
+  const { data: reportData } = useApi<SongReportType[]>(url, {
     method: 'GET',
   });
 
