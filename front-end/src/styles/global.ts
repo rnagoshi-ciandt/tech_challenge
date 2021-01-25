@@ -10,6 +10,8 @@ export default createGlobalStyle`
 
   body {
     --webkit-font-smooth: antialiased;
+    background-color: #263752;
+    color: #f0ece2;
   }
 
   button {

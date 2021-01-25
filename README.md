@@ -1,3 +1,6 @@
+ # Updates / iHeartMedia - Music Lab - Code Challenge
+    - Demo: https://rnagoshi-ciandt.github.io/tech_challenge
+
  # iHeartMedia - Music Lab - Code Challenge
 
 Create a React application that shows a list of songs with their information and metrics displayed. The app should have at least **2 pages (views)**:

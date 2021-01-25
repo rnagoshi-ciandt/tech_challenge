@@ -14,21 +14,28 @@ export const Title = styled.h1`
   padding: 20px;
 `;
 
-export const ButtonContainer = styled.div`
+export const ReportContainer = styled.div`
   height: 300px;
   width: 100%;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
+  padding-left: 50px;
 `;
 
-export const Button = styled.button`
-  height: 60px;
-  padding: 10px;
-  border: 1px solid black;
+export const ReportTitle = styled.h2`
+  font-size: 36px;
 `;
 
-export const ButtonText = styled.span`
-  font-size: 18px;
-  color: black;
+export const ReportListContainer = styled.div`
+  display: flex;
+  margin-top: 10px;
+  padding-left: 15px;
+`;
+
+export const ReportText = styled.span`
+  font-size: 26px;
+  text-decoration: underline;
+  cursor: pointer;
 `;

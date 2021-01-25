@@ -7,7 +7,7 @@ import BodyGridComponent from '../BodyGridComponent';
 import HeaderGridComponent from '../HeaderGridComponent';
 import LoadComponent from '../LoadComponent';
 
-import { Container, ReportTitle, Table } from './styles';
+import { Container, Table } from './styles';
 
 interface GridProps {
   reportData: ReportTypes;
@@ -35,7 +35,6 @@ const GridComponent: React.FC<GridProps> = ({
 
   return (
     <Container>
-      <ReportTitle>Song Report</ReportTitle>
       <Table>
         <HeaderGridComponent
           columns={reportColumns}

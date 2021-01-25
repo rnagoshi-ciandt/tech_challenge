@@ -6,7 +6,7 @@ import { Container } from './styles';
 const LoadComponent: React.FC = () => {
   return (
     <Container>
-      <ReactLoading type="cylon" color="#000" height={667} width={375} />
+      <ReactLoading type="cylon" color="#f0ece2" height={667} width={375} />
     </Container>
   );
 };
