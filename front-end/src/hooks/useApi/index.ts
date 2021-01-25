@@ -28,7 +28,8 @@ const config = {
   },
 };
 
-const endpointURL = 'https://600a3dc8778d1a00177937e0.mockapi.io';
+const endpointURL =
+  'https://kagbz0z1dg.execute-api.sa-east-1.amazonaws.com/Prod';
 
 function dataFetchReducer<T>(
   state: UseApiResponse<T>,

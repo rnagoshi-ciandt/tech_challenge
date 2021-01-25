@@ -20,3 +20,7 @@ export interface SongReportType {
   metricO: number;
   metricP: number;
 }
+
+export interface SongReportResponse {
+  data: SongReportType[];
+}
