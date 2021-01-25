@@ -9,13 +9,14 @@ import { SongReportColumns } from './utils/SongReportConstants';
 
 const url = '/getSongs';
 const SongReport: React.FC = () => {
-  const { data: reportData } = useApi<SongReportType[]>(url, {
+  const { data: reportData, isLoading } = useApi<SongReportType[]>(url, {
     method: 'GET',
   });
 
   return (
     <Container>
       <GridComponent
+        loading={isLoading}
         reportData={reportData}
         reportColumns={SongReportColumns}
       />
